@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
 }
+
 :root{
 --main_background: hsl(233, 47%, 7%);
 --card_background: hsl(244, 38%, 16%);
@@ -123,4 +124,47 @@ main{
 
     text-decoration: none;
     color: hsl(228, 45%, 44%);
+}
+
+
+/*MEDIA QUERYS*/
+@media (max-width: 750px){
+    
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .caja1{
+
+        font-size: 18px;
+        text-align: center;
+        
+        padding: 2rem;
+        order: 2;
+    }
+    .caja1 p{
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    
+
+    /**/
+    .estadisticas{
+     
+        display: inline-flex;
+        flex-direction: column;
+      
+    }
+    .estadisticas > div {
+        padding-bottom: 1em;
+    }
+    
+    .caja2{
+
+        order: 1;
+    }
+
+   
 }
