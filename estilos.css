@@ -165,6 +165,12 @@ main{
 
         order: 1;
     }
+    .caja2 img{
+        border-radius: 0;
+    }
 
+    .caja2 > div{
+        border-radius: 0;
+    }
    
 }
